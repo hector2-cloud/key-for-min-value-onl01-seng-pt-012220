@@ -12,7 +12,7 @@ def key_for_min_value(hash)
     if current_minimum<0
       current_minimum=1 
       current_key_assoc_w_min_val=adam
-
+end
 end
 end
 end
