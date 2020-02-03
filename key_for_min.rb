@@ -5,4 +5,6 @@ def key_for_min_value(hash)
   
   hash.each do |name,number|
   if number<2 
-    puts 
+    puts #{name}
+  end
+end
