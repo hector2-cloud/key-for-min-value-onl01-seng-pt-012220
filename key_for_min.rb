@@ -6,12 +6,12 @@ def key_for_min_value(hash)
   current_key_assoc_w_min_val=nil
   hash.each do |name,number|
   if current_minimum==nil
-    current_minimum=1
-    current_key_assoc_w_min_val=adam
+    current_minimum=[1]
+    current_key_assoc_w_min_val=[:adam]
   else
     if current_minimum<0
-      current_minimum=1 
-      current_key_assoc_w_min_val=adam
+      current_minimum=[1] 
+      current_key_assoc_w_min_val=[:adam]
 end
 end
 end
